@@ -4,7 +4,20 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#f5f6fc">
-<meta name="description" content="TokSave - tải video TikTok hoặc trích xuất âm thanh MP3.">
+<meta name="description" content="TokSave — tải video TikTok không watermark, hỗ trợ MP4 và MP3. Miễn phí, nhanh, không cần đăng nhập, không cài app.">
+<meta name="keywords" content="tải video TikTok, TikTok downloader, không watermark, MP3, MP4, TokSave, tải video miễn phí">
+<meta name="author" content="TokSave">
+<link rel="canonical" href="https://toksave.vn">
+<!-- Open Graph -->
+<meta property="og:title" content="TokSave — Tải video TikTok không watermark">
+<meta property="og:description" content="TokSave — tải video TikTok không watermark, hỗ trợ MP4 và MP3. Miễn phí, nhanh, không cần đăng nhập, không cài app.">
+<meta property="og:image" content="https://toksave.vn/og-image.png">
+<meta property="og:url" content="https://toksave.vn">
+<meta property="og:type" content="website">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="TokSave — Tải video TikTok không watermark">
+<meta name="twitter:description" content="Miễn phí, nhanh, không watermark. Hỗ trợ MP4 và MP3.">
 <title>TokSave — Tải video TikTok không watermark</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -48,7 +61,56 @@ h1{font-size:clamp(40px,6.3vw,64px);line-height:1.12;letter-spacing:-.055em;font
 .download-options{display:grid;gap:9px}.download-option{width:100%;display:flex;align-items:center;gap:12px;min-height:66px;text-align:left;padding:10px 15px;border:1px solid var(--border);border-radius:16px;background:rgba(255,255,255,.77);color:var(--ink);transition:transform .15s,box-shadow .15s,border-color .15s;box-shadow:0 1px 2px rgba(25,38,70,.02)}.download-option.primary{border-color:transparent;background:linear-gradient(105deg,#08bfdc 0%,#279de2 43%,#b36eb0 72%,#ff4168 100%);color:white;box-shadow:0 8px 16px rgba(239,81,130,.18)}.option-icon{width:40px;height:40px;flex:0 0 40px;border-radius:12px;display:grid;place-items:center;background:#f0f4f9;color:#17243a}.primary .option-icon{background:rgba(255,255,255,.2);color:white}.option-icon svg{width:20px;height:20px}.option-copy{display:block;min-width:0}.option-title{display:block;font-size:13px;font-weight:800;line-height:1.45}.option-subtitle{display:block;margin-top:1px;font-size:11px;color:#6d7e99;line-height:1.4;font-weight:500}.primary .option-subtitle{color:rgba(255,255,255,.92)}.download-option:disabled{transform:none}
 .watermark-note{font-size:10px;color:var(--muted);line-height:1.5;margin:0 2px}
 .trust-row{width:min(720px,100%);margin:36px auto 0;display:grid;grid-template-columns:repeat(3,1fr);gap:11px}.trust-item{display:flex;align-items:center;justify-content:center;gap:8px;color:#72839e;font-size:11px;font-weight:600}.trust-item svg{width:16px;height:16px;color:#4f93b7;flex:0 0 auto}
-footer{text-align:center;padding:22px 5vw 25px;color:#8290a7;font-size:11px}
+
+/* How-to steps */
+.howto-section{text-align:center;margin:54px auto 0}
+.howto-title{font-size:clamp(22px,3.2vw,28px);font-weight:800;line-height:1.2;margin-bottom:8px}
+.howto-subtitle{font-size:14px;line-height:1.6;color:var(--muted);max-width:540px;margin:0 auto 38px}
+.howto-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.howto-step{background:var(--panel);border:1px solid var(--border);border-radius:24px;padding:28px 20px;text-align:center;box-shadow:var(--shadow);backdrop-filter:blur(10px);transition:transform .18s,box-shadow .18s}
+.howto-step:hover{transform:translateY(-4px);box-shadow:0 22px 55px rgba(55,66,120,.12)}
+.howto-step .step-circle{width:72px;height:72px;border-radius:50%;margin:0 auto 18px;display:grid;place-items:center;font-weight:800;font-size:24px;color:white;background:linear-gradient(135deg,#09bfdc 5%,#279fe2 55%,#ff4169)}
+.howto-step .step-title{font-size:14px;font-weight:700;margin-bottom:7px;line-height:1.3}
+.howto-step .step-text{font-size:12px;line-height:1.6;color:var(--muted)}
+
+/* Features */
+.features-section{margin:60px auto 0;text-align:center}
+.features-title{font-size:clamp(22px,3.2vw,28px);font-weight:800;line-height:1.2;margin-bottom:8px}
+.features-subtitle{font-size:14px;line-height:1.6;color:var(--muted);max-width:540px;margin:0 auto 38px}
+.features-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.feature-card{background:var(--panel);border:1px solid var(--border);border-radius:20px;padding:26px;text-align:center;box-shadow:var(--shadow);transition:transform .18s,border-color .18s}
+.feature-card:hover{transform:translateY(-4px);border-color:rgba(10,190,220,.3)}
+.feature-card .feature-icon{width:64px;height:64px;border-radius:50%;margin:0 auto 16px;display:grid;place-items:center;background:linear-gradient(135deg,rgba(95,205,212,.15),rgba(242,108,97,.12));color:var(--pink);font-size:26px;box-shadow:0 8px 16px rgba(55,66,120,.04)}
+.feature-card .feature-title{font-size:14px;font-weight:700;margin-bottom:7px;line-height:1.3;color:var(--ink)}
+.feature-card .feature-desc{font-size:12px;line-height:1.6;color:var(--muted)}
+
+/* FAQ Accordion */
+.faq-section{margin:60px auto 0}
+.faq-title{font-size:clamp(22px,3.2vw,28px);font-weight:800;line-height:1.2;text-align:center;margin-bottom:8px}
+.faq-subtitle{font-size:14px;line-height:1.6;color:var(--muted);max-width:620px;margin:0 auto 8px;text-align:center}
+.faq-list{display:flex;flex-direction:column;gap:10px;margin-top:34px}
+.faq-item{background:var(--panel);border:1px solid var(--border);border-radius:18px;box-shadow:var(--shadow);overflow:hidden;transition:background .18s}
+.faq-item:hover{background:var(--soft)}
+.faq-question{width:100%;display:flex;align-items:center;gap:12px;text-align:left;padding:16px 20px;font-size:14px;font-weight:700;color:var(--ink);border:0;background:transparent;cursor:pointer}
+.faq-question:hover{color:var(--pink)}
+.faq-question svg{width:20px;height:20px;transition:transform .24s;margin-left:auto;flex:0 0 auto}
+.faq-question svg.open{transform:rotate(180deg)}
+.faq-answer{max-height:0;overflow:hidden;transition:max-height .28s ease;background:var(--soft);border-radius:0 0 18px 18px}
+.faq-answer .faq-content{padding:0 20px;font-size:13px;line-height:1.7;color:var(--muted)}
+.faq-answer.show{max-height:400px}
+
+/* Footer */
+footer{width:100%;text-align:center;padding:42px 5vw 30px}
+.footer-content{max-width:960px;margin:0 auto}
+.footer-links{display:flex;flex-wrap:wrap;justify-content:center;gap:18px;margin-bottom:18px}
+.footer-link{color:#8290a7;font-size:12px;text-decoration:none;transition:color .18s}
+.footer-link:hover{color:var(--ink)}
+.footer-divider{width:100%;height:1px;background:var(--border);margin:22px 0}
+.footer-bottom{display:flex;flex-direction:column;gap:8px;font-size:10px;line-height:1.7;color:#8290a7;text-align:center}
+.disclaimer{font-size:10px;line-height:1.6;color:#8290a7;margin-top:10px;text-align:center;max-width:800px;margin-left:auto;margin-right:auto}
+
+@media(max-width:650px){.howto-steps{grid-template-columns:1fr;gap:12px}.howto-step{padding:24px 15px}.features-grid{grid-template-columns:repeat(2,1fr);gap:12px}.features-section{margin-top:44px}.faq-section{margin-top:44px}.faq-title{text-align:center}.faq-question{font-size:13px}.faq-content{font-size:12px}.footer-links{flex-direction:column;gap:12px}.footer-divider{margin:14px 0}}
+@media(max-width:430px){.features-grid{grid-template-columns:1fr}.footer-bottom{font-size:9px}.disclaimer{font-size:9px}}
 body.dark{color-scheme:dark;--bg:#0d0e19;--ink:#f4f5ff;--muted:#a4afc8;--border:#2c3045;--panel:rgba(24,26,43,.9);--soft:#171a2a;--shadow:0 22px 60px rgba(0,0,0,.25);background:radial-gradient(ellipse at -8% 35%,rgba(22,151,174,.17),transparent 37%),radial-gradient(ellipse at 37% 100%,rgba(104,82,191,.20),transparent 42%),#0d0e19}
 body.dark .intro,body.dark .hint{color:#aab7d1}body.dark .eyebrow,body.dark .theme-toggle{background:rgba(27,29,48,.85);border-color:#30344a}body.dark .url-input,body.dark .download-option:not(.primary),body.dark .message{background:#171a2a;color:var(--ink);border-color:#30344a}body.dark .url-input::placeholder{color:#75829e}body.dark .option-icon{background:#252a40;color:#e8edfc}body.dark .option-subtitle{color:#a6b2cb}body.dark .trust-item{color:#a6b2cb}body.dark .video-user{color:#a6b2cb}body.dark .hint{color:#a6b2cb}
 @media(max-width:650px){.site-header{width:90vw;padding-top:15px}.brand-icon{width:41px;height:41px}main{margin-top:55px;width:90vw}.eyebrow{font-size:9px;letter-spacing:.13em}h1{font-size:clamp(38px,9.5vw,54px);margin-top:19px}.intro{font-size:15px;margin-bottom:22px}.input-row{gap:8px;flex-direction:column}.url-input{height:59px;padding-left:40px;padding-right:43px;font-size:13px;border-radius:14px}.link-icon{left:13px;width:17px;height:17px}.paste-btn{right:5px}.go-btn{height:59px;width:100%;min-width:0;padding:0 15px;font-size:13px;border-radius:14px}.hint{font-size:11px}.result-card{padding:15px;border-radius:22px;gap:13px}.thumbnail-wrap{flex-basis:31%;min-height:238px;border-radius:13px}.video-title{font-size:15px}.video-user{font-size:12px}.download-options{gap:8px}.download-option{padding:8px;gap:8px;min-height:61px;border-radius:13px}.option-icon{width:33px;height:33px;flex-basis:33px;border-radius:10px}.option-title{font-size:11px}.option-subtitle{font-size:10px}.watermark-note{font-size:9px}.trust-row{margin-top:28px;gap:8px}.trust-item{font-size:10px;flex-direction:column;text-align:center;gap:5px}}
@@ -58,9 +120,9 @@ body.dark .intro,body.dark .hint{color:#aab7d1}body.dark .eyebrow,body.dark .the
 </head>
 <body>
 <header class="site-header">
-  <a class="brand" href="/" aria-label="TokSave trang chủ">
+  <a class="brand" href="/" aria-label="TikSave trang chủ">
     <span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v11"/><path d="m7 10 5 5 5-5"/><path d="M5 15v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-4"/></svg></span>
-    <span><span class="brand-name">TokSave</span><span class="brand-caption" style="display:block">TẢI VIDEO TIKTOK</span></span>
+    <span><span class="brand-name">TikSave</span><span class="brand-caption" style="display:block">TẢI VIDEO TIKTOK</span></span>
   </a>
   <div class="theme-toggle" aria-label="Chọn giao diện">
     <button class="theme-btn active" id="lightTheme" type="button" aria-label="Giao diện sáng" title="Giao diện sáng"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg></button>
@@ -115,8 +177,143 @@ body.dark .intro,body.dark .hint{color:#aab7d1}body.dark .eyebrow,body.dark .the
     <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m-5-5 5 5 5-5"/><path d="M5 16v4h14v-4"/></svg><span>Tải trực tiếp về máy</span></div>
     <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Hỗ trợ MP4 / MP3</span></div>
   </div>
+
+  <!-- How to use -->
+  <section class="howto-section">
+    <h2 class="howto-title">Cách sử dụng TokSave</h2>
+    <p class="howto-subtitle">Chỉ với 3 bước đơn giản, bạn đã có thể tải video TikTok ngay.</p>
+    <div class="howto-steps">
+      <div class="howto-step">
+        <div class="step-circle">1</div>
+        <h3 class="step-title">Dán liên kết TikTok</h3>
+        <p class="step-text">Mở video trên TikTok, nhấn Chia sẻ → Sao chép liên kết và dán vào ô trên.</p>
+      </div>
+      <div class="howto-step">
+        <div class="step-circle">2</div>
+        <h3 class="step-title">Chọn định dạng</h3>
+        <p class="step-text">Chọn tải Video không watermark, Video gốc, hoặc trích xuất âm thanh MP3.</p>
+      </div>
+      <div class="howto-step">
+        <div class="step-circle">3</div>
+        <h3 class="step-title">Tải về máy</h3>
+        <p class="step-text">Nhấn nút tải và nhận file ngay trên thiết bị của bạn trong giây lát.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key features -->
+  <section class="features-section">
+    <h2 class="features-title">Tính năng nổi bật</h2>
+    <p class="features-subtitle">TokSave mang đến trải nghiệm tải video TikTok nhanh chóng và an toàn.</p>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 2.24v3.3a2 2 0 0 0 .6.9l3 3a2 2 0 0 0 .9.6h3.3a1.8 1.8 0 0 0 0-3.5h-4.2a2 2 0 0 1 0-3.8z"/><path d="M4 12.2v8.8a1 1 0 0 0 1 1h6.5a1 1 0 0 0 0-2H6v-7a1 1 0 0 1 0-2H4z"/></svg></div>
+        <h3 class="feature-title">Không Watermark</h3>
+        <p class="feature-desc">Video tải về không chứa biểu tượng nước, sạch và chuyên nghiệp.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 10v6m-3-3h6M6 12V8a6 6 0 0 1 12 0v4m-2 6h-8a2 2 0 0 1-2-2V7a6 6 0 0 0-12 0v9a6 6 0 0 0 12 1z"/></svg></div>
+        <h3 class="feature-title">Tốc độ cao</h3>
+        <p class="feature-desc">Công nghệ tối ưu giúp quá trình tải hoàn tất nhanh chóng.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div>
+        <h3 class="feature-title">Tải MP3</h3>
+        <p class="feature-desc">Trích xuất âm thanh chất lượng cao dưới dạng MP3 chuẩn.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20"/></svg></div>
+        <h3 class="feature-title">Miễn phí</h3>
+        <p class="feature-desc">Hoàn toàn miễn phí, không bất kỳ chi phí ẩn nào.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11Z"/><path d="M9 12l2 2 4-4"/></svg></div>
+        <h3 class="feature-title">An toàn bảo mật</h3>
+        <p class="feature-desc">Dữ liệu của bạn được mã hóa và không lưu trữ trên máy chủ.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11Z"/><circle cx="12" cy="8" r="3"/><path d="M8 20.5c3-2 7-2 12-2"/></svg></div>
+        <h3 class="feature-title">Đa thiết bị</h3>
+        <p class="feature-desc">Tương thích hoàn hảo với máy tính, điện thoại và máy tính bảng.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Accordion -->
+  <section class="faq-section">
+    <h2 class="faq-title">Câu hỏi thường gặp (FAQ)</h2>
+    <p class="faq-subtitle">Những câu hỏi phổ biến về TokSave, hãy xem ngay.</p>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question" type="button" aria-expanded="false">
+          TokSave có lưu lại video hoặc dữ liệu của tôi không?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-content">Không. TokSave không lưu trữ bất kỳ file nào hoặc dữ liệu cá nhân của bạn. Mọi tệp tin đều được tạo tạm thời trên bộ nhớ và tự động xóa sau khi bạn tải về.</div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" type="button" aria-expanded="false">
+          Tôi có cần đăng nhập hoặc cài đặt phần mềm không?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-content">Hoàn toàn không. Bạn chỉ cần truy cập TokSave trên trình duyệt và dán liên kết TikTok để sử dụng. Không cần đăng ký tài khoản hay cài đặt phần mềm hỗ trợ.</div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" type="button" aria-expanded="false">
+          Chất lượng video tải về là bao nhiêu?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-content">TokSave tải video về với chất lượng tốt nhất mà TikTok cung cấp, thường từ 720p đến 1080p tùy theo nguồn video gốc.</div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" type="button" aria-expanded="false">
+          Làm sao để tắt watermark khỏi video?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-content">Chọn tùy chọn "Tải Video (Không Watermark)" khi lấy video. Tuy nhiên, việc loại bỏ watermark phụ thuộc vào nguồn video mà TikTok cung cấp. Đối với một số video, watermark có thể vẫn còn lại.</div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" type="button" aria-expanded="false">
+          Tôi có thể tải âm thanh MP3 không?
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-content">Có, bạn có thể chọn "Tải Âm thanh (MP3)" để trích xuất nhạc nền từ video TikTok về dạng MP3 chất lượng cao.</div>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
-<footer>TokSave · Chỉ tải nội dung bạn có quyền sử dụng và tôn trọng bản quyền của tác giả.</footer>
+
+<!-- Footer & Disclaimer -->
+<footer>
+  <div class="footer-content">
+    <div class="footer-links">
+      <a class="footer-link" href="/health">Trạng thái server</a>
+      <a class="footer-link" href="https://github.com/toksave">GitHub</a>
+      <a class="footer-link" href="https://www.tiktok.com">TikTok</a>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="footer-bottom">
+      <p>Toy project cá nhân — chỉ để học tập và nghiên cứu.</p>
+      <p>TokSave không lưu trữ bất kỳ nội dung nào. Mọi hoạt động đều chạy trên trình duyệt của bạn.</p>
+    </div>
+    <div class="disclaimer">
+      <strong>Disclaimer (Tuyên bố miỏcng):</strong>
+      &copy; 2026 TokSave. Toàn bộ quyền được bảo lưu.<br>
+      Nội dung trên trang này được cung cấp "nguyên trạng" mà không có bất kỳ bảo hành nào. TokSave không chịu trách nhiệm về mục đích sử dụng nội dung bởi người dùng.<br>
+      Bạn có trách nhiệm tuân thủ luật bản quyền và pháp luật địa phương khi sử dụng dịch vụ này. Chúng tôi khuyến khích tôn trọng quyền lợi của các tác giả và nền tảng chia sẻ nội dung gốc.
+    </div>
+  </div>
+</footer>
 <script>
 const $ = id => document.getElementById(id);
 let currentInfo = null;
@@ -226,6 +423,17 @@ function setTheme(theme) {
 $("lightTheme").addEventListener("click", () => setTheme("light"));
 $("darkTheme").addEventListener("click", () => setTheme("dark"));
 try { if (localStorage.getItem("toksave-theme") === "dark") setTheme("dark"); } catch (_) {}
+
+// FAQ Accordion
+document.querySelectorAll(".faq-question").forEach(button => {
+  button.addEventListener("click", () => {
+    const faqItem = button.parentElement;
+    const answer = button.nextElementSibling;
+    const isOpen = answer.classList.contains("show");
+    button.setAttribute("aria-expanded", !isOpen);
+    answer.classList.toggle("show", !isOpen);
+  });
+});
 </script>
 </body>
 </html>
