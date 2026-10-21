@@ -9,8 +9,7 @@
 Cần Python 3.10+ và FFmpeg (có `ffmpeg.exe` và `ffprobe.exe` trong PATH).
 
 ```powershell
-scoop install python
-scoop install ffmpeg
+winget install ffmpeg
 python -m venv .venv
 .\.venv\Scripts\python -m pip install -r requirements.txt
 .\.venv\Scripts\python -m uvicorn main:app --host 127.0.0.1 --port 8000
