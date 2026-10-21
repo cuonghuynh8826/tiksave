@@ -1,4 +1,4 @@
-# TokSave — website tải video TikTok (bản chạy local)
+# TikSave — website tải video TikTok (bản chạy local)
 
 ## Nội dung
 - `main.py`: backend FastAPI, API xem thông tin và tải video / âm thanh.
