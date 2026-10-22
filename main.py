@@ -137,6 +137,11 @@ def home():
     return FileResponse(STATIC_DIR / "index.html", media_type="text/html; charset=utf-8")
 
 
+@app.get("/sitemap.xml")
+def get_sitemap():
+    return FileResponse(STATIC_DIR / "sitemap.xml", media_type="application/xml")
+
+
 @app.get("/health")
 def health():
     return {"status": "ok"}
